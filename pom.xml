@@ -10,7 +10,7 @@
     <groupId>fr.paris.lutece.plugins</groupId>
     <artifactId>module-extend-opengraph</artifactId>
     <packaging>lutece-plugin</packaging>
-    <version>1.2.4</version>
+    <version>1.2.4-CGI</version>
     <name>Lutece extend opengraph module</name>
 
     <repositories>
@@ -57,6 +57,18 @@
         <developerConnection>scm:git:https://github.com/lutece-platform/lutece-extends-module-extend-opengraph.git</developerConnection>
         <url>https://github.com/lutece-platform/lutece-extends-module-extend-opengraph.git</url>
       <tag>module-extend-opengraph-1.2.4</tag>
-  </scm>
+    </scm>
+    <distributionManagement>
+        <repository>
+            <id>nexusEnt</id>
+            <name>CGI Maven Releases</name>
+            <url>https://nexus-pic2.support-ent.fr/repository/cgi-maven-releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexusSnapshots</id>
+            <name>CGI Maven Snapshots</name>
+            <url>https://nexus-pic2.support-ent.fr/repository/cgi-maven-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
     
 </project>
