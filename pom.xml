@@ -10,7 +10,7 @@
     <groupId>fr.paris.lutece.plugins</groupId>
     <artifactId>module-extend-opengraph</artifactId>
     <packaging>lutece-plugin</packaging>
-    <version>1.2.4-CGI</version>
+    <version>1.2.5-CGI-SNAPSHOT</version>
     <name>Lutece extend opengraph module</name>
 
     <repositories>
